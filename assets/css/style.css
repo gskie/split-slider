@@ -11,7 +11,6 @@ body input {
   z-index: 10;
 }
 body input[type=checkbox] {
-  -webkit-appearance: none;
   position: absolute;
   bottom: -42px;
   left: 88px;
@@ -56,11 +55,11 @@ body input[type=checkbox]:after {
   font-weight: 600 !important;
   position: relative;
   top: -8px;
-  content: "Go back ";
+  content: "Назад ";
   transition: color 0.1s 0.8s;
 }
 body input[type=checkbox]:before {
-  background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/217233/rightArrowNew.png);
+  background: url(https://img.icons8.com/tiny-glyph/128/FFFFFF/long-arrow-right.png);
   width: 15px;
   transform: rotate(180deg);
   height: 30px;
@@ -1317,37 +1316,37 @@ body iframe {
 }
 .split_left .slide:nth-child(1) {
   left: 600px;
-  background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/217233/me.png), -webkit-linear-gradient(bottom, #180e18 0%, #491a29 100%);
+  background-image: url(https://ratatum.com/wp-content/uploads/2018/05/DSC_3030.jpg), -webkit-linear-gradient(bottom, #180e18 0%, #491a29 100%);
   background-size: cover;
 }
 .split_left .slide:nth-child(2) {
   left: 500px;
-  background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/217233/me.png), -webkit-linear-gradient(bottom, #180e18 0%, #491a29 100%);
+  background-image: url(https://ratatum.com/wp-content/uploads/2018/05/DSC_3030.jpg), -webkit-linear-gradient(bottom, #180e18 0%, #491a29 100%);
   background-size: cover;
 }
 .split_left .slide:nth-child(3) {
   left: 400px;
-  background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/217233/me.png), -webkit-linear-gradient(bottom, #180e18 0%, #491a29 100%);
+  background-image: url(https://ratatum.com/wp-content/uploads/2018/05/DSC_3030.jpg), -webkit-linear-gradient(bottom, #180e18 0%, #491a29 100%);
   background-size: cover;
 }
 .split_left .slide:nth-child(4) {
   left: 300px;
-  background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/217233/me.png), -webkit-linear-gradient(bottom, #180e18 0%, #491a29 100%);
+  background-image: url(https://ratatum.com/wp-content/uploads/2018/05/DSC_3030.jpg), -webkit-linear-gradient(bottom, #180e18 0%, #491a29 100%);
   background-size: cover;
 }
 .split_left .slide:nth-child(5) {
   left: 200px;
-  background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/217233/me.png), -webkit-linear-gradient(bottom, #180e18 0%, #491a29 100%);
+  background-image: url(https://ratatum.com/wp-content/uploads/2018/05/DSC_3030.jpg), -webkit-linear-gradient(bottom, #180e18 0%, #491a29 100%);
   background-size: cover;
 }
 .split_left .slide:nth-child(6) {
   left: 100px;
-  background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/217233/me.png), -webkit-linear-gradient(bottom, #180e18 0%, #491a29 100%);
+  background-image: url(https://ratatum.com/wp-content/uploads/2018/05/DSC_3030.jpg), -webkit-linear-gradient(bottom, #180e18 0%, #491a29 100%);
   background-size: cover;
 }
 .split_left .slide:nth-child(7) {
   left: 0px;
-  background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/217233/me.png), -webkit-linear-gradient(bottom, #180e18 0%, #491a29 100%);
+  background-image: url(https://ratatum.com/wp-content/uploads/2018/05/DSC_3030.jpg), -webkit-linear-gradient(bottom, #180e18 0%, #491a29 100%);
   background-size: cover;
 }
 .split_left .slide .content {

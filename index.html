@@ -1,20 +1,14 @@
 <!DOCTYPE html>
 <html lang="ru" >
-
   <head>
     <meta charset="UTF-8">
-    <script src="https://cpwebassets.codepen.io/assets/common/stopExecutionOnTimeout-2c7831bb44f98c1391d6a4ffda0e1fd302503391ca806e7fcc7b9b87197aec26.js"></script>
     <link crossorigin="anonymous" media="all" rel="stylesheet" href="./assets/css/style.css" />
     <title>Split Slider</title>
 
-  <script>
-  window.console = window.console || function(t) {};
-  </script>
-
-
-
+    <script>
+      window.console = window.console || function(t) {};
+    </script>
   </head>
-
 <body translate="no">
   <blink></blink>
 <div class='split'>
@@ -64,7 +58,7 @@
     </div>
     <div class='split_left__slide slide' style="background: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/217233/reactionportrprev.png'), #020104">
       <div class='content' style='text-align: center;'>
-        <img src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/217233/theMineLogoPortfolio.png'>
+        <img src=''>
       </div>
     </div>
     <div class='split_left__slide slide' style="background: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/217233/poetryportbg.png'), #272118">
@@ -82,26 +76,26 @@
         <img src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/217233/cpslogo.png'>
       </div>
     </div>
-    <div class='split_left__slide slide' style="background: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/217233/minepreviewportfolio.png'), #17100f">
+    <div class='split_left__slide slide' style="background: url('https://ratatum.com/wp-content/uploads/2018/05/DSC_3030.jpg'), #17100f">
       <div class='content' style='text-align: center;'>
-        <img src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/217233/theMineLogoPortfolio.png'>
+        <img src='./assets/img/3d-casual-life-young-man-drawing-a-curve-in-design-program.png'>
       </div>
     </div>
     <div class='split_left__slide slide'>
       <div class='content'>
         <h1>Jamie Coulter</h1>
-        <h2>Цифровой дизайнер &amp; Разработчик интерфейса</h2>
-        <p>Демонстрация, созданная с использованием только CSS.</p>
-        <a href='mailto: jcoulterdesign@gmail.com'>Есть вопросы?</a>
+        <h2>Digital Designer &amp;amp; Front End Developer</h2>
+        <p>A showcase built using only CSS. Featuring a selection of CodePen projects, experiments and other Tom Foolery.</p>
+        <a href='mailto: jcoulterdesign@gmail.com'>Need something doing?</a>
       </div>
     </div>
   </div>
   <div class='split_right'>
     <div class='split_right__slide slide'>
       <div class='content'>
-        <h2>Ой. Привет.</h2>
-        <p>Я Джейми. Многопрофильный Front-end разработчик &amp; цифровой дизайнер из Лидса. От брендинга и полиграфии до незабываемых цифровых впечатлений - я помогу тебе, приятель.</p>
-        <label for='trigger2'>Заводной, что в первую очередь?</label>
+        <h2>Oh. Hello there.</h2>
+        <p>I'm Jamie. A Leeds based, multi-disciplined Front end developer &amp;amp; Digital designer. From branding and print, to un-forgettable digital experiences, i’ve got you covered buddy.</p>
+        <label for='trigger2'>Groovy, what's first?</label>
       </div>
     </div>
     <div class='split_right__slide slide' style='background: #2b1a17'>
@@ -149,34 +143,30 @@
   </div>
 </div>
   <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
-      <script id="rendered-js" >
-// This is just used to destroy and append iframes so the sound doesnt bleed into the experience, also saves load time rather than dumping in a ton of iframes
+  <script id="rendered-js" >
+    $('.trig').click(function (evt) {
+    evt.stopPropagation();
+    $('iframe').css('opacity', 0);
 
-$('.trig').click(function (evt) {
-  evt.stopPropagation();
-  $('iframe').css('opacity', 0);
-
-  setTimeout(function () {
+    setTimeout(function () {
     $('iframe').remove();
-  }, 1300);
-});
+    }, 1300);
+    });
 
-$('.content label.lab').click(function () {
-  let ID = $(this).data('iframe');
+    $('.content label.lab').click(function () {
+    let ID = $(this).data('iframe');
 
-  setTimeout(function () {
+    setTimeout(function () {
     $('body').append(`<iframe src='https://codepen.io/jcoulterdesign/live/${ID}' />`);
-  }, 1500);
+    }, 1500);
 
-  setTimeout(function () {
+    setTimeout(function () {
     $('iframe').css('opacity', 1);
-  }, 1600);
+    }, 1600);
 
-});
-//# sourceURL=pen.js
-    </script>
+    });
+  </script>
 
   
 </body>
-
 </html>
